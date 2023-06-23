@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <title>Noticias.blog Home</title>
     <link rel="stylesheet" href="..\principal.css"/>
+    <script language="javascript" src="..\funcoes.js"></script>
 </head>
 <body>
 <header id="cabecalho">
 <h1>Notícias.Blog</h1>
 <h2><span style="text-decoration: underline;">Um blog com "Tudo"</span></h2>
+<img id="icone" src="..\download.jpg"/>
 <nav id="menu">
 <ul>    
-    <a href="index.html"><li>Home</li></a>
-    <a href="noticias.html"><li>Notícias</li></a>
-    <a href="multimidia.html"><li>Multimídia</li></a>
-    <a href="outros.html"><li>Outros</li></a>
+<a href="index.html"><li onmousemove="mudaFoto('../home.jpg')" onmouseout="mudaFoto('../download.jpg')">Home</li></a>
+<a href="noticias.html"><li onmousemove="mudaFoto('../th.jpg')" onmouseout="mudaFoto('../download.jpg')">Notícias</li></a>
+<a href="multimidia.html"><li>Multimídia</li></a>
+<a href="outros.html"><li>Outros</li></a>
 </ul>    
 </nav>
 </header>

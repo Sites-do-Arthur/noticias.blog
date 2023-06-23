@@ -1,4 +1,18 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'computador';
+    src: url(computer-font.ttf);
+}
+
+header#cabecalho h1 {
+    font-family: 'computador';
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    top: 30px;
+    left: 1000px;    
+}
 
 body {
     background-color: aqua;
