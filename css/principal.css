@@ -9,3 +9,16 @@ span.sublinhado{
     text-decoration: underline;
 }
 
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    position: absolute;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav#menu li {
+
+}
