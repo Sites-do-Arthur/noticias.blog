@@ -10,7 +10,7 @@ header#cabecalho h1 {
 
 header#cabecalho img#icone {
     position: absolute;
-    top: 30px;
+    top: 20px;
     left: 1000px;    
 }
 
@@ -52,4 +52,25 @@ nav#menu li {
 nav#menu li:hover {
     background-color: rgba(0, 0, 0, .5);
     text-decoration: underline;
+}
+
+span.direita {
+    display: block;
+    position: absolute;
+    float: right;
+    color: rgba(0, 0, 0, .3);
+    right: 500px;
+    top: 130px;
+}
+
+section#corpo {
+    border-right: 1px solid #606060;
+    width: 500px;
+    float: left;
+    padding-right: 15px;
+}
+
+aside#direita {
+    display: block;
+    width: 340px;
 }
