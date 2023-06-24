@@ -72,5 +72,7 @@ section#corpo {
 
 aside#direita {
     display: block;
-    width: 340px;
+    width: 350px;
+    float: right;
+    margin-bottom: 150px;
 }
