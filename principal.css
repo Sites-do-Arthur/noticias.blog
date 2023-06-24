@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'computador';
+    src: url(computer-font.ttf);
+}
+
+header#cabecalho h1 {
+    font-family: 'computador';
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    top: 20px;
+    left: 1000px;    
+}
+
+body {
+    background-color: aqua;
+    color: rgba(0, 0, 0, .6);
+    font-family: 'Arial';
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .6);
+}
+
+p {
+    text-indent: 20pt;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    position: absolute;
+    list-style: none;
+    text-transform: uppercase;
+    top: -10px;
+    left: 500px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: rgba(0, 0, 0, .5);
+    text-decoration: underline;
+}
+
+span.direita {
+    display: block;
+    position: absolute;
+    float: right;
+    color: rgba(0, 0, 0, .3);
+    right: 500px;
+    top: 130px;
+}
+
+section#corpo {
+    border-right: 1px solid #606060;
+    width: 500px;
+    float: left;
+    padding-right: 15px;
+}
+
+aside#direita {
+    display: block;
+    width: 350px;
+    float: right;
+    margin-bottom: 150px;
+}
