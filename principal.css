@@ -56,11 +56,9 @@ nav#menu li:hover {
 
 span.direita {
     display: block;
-    position: absolute;
+    position: relative;
     float: right;
     color: rgba(0, 0, 0, .3);
-    right: 500px;
-    top: 130px;
 }
 
 section#corpo {
@@ -68,6 +66,12 @@ section#corpo {
     width: 500px;
     float: left;
     padding-right: 15px;
+}
+
+section#corpo h2 {
+    display: block;
+    padding: 2px;
+    font-family: ;
 }
 
 aside#direita {
