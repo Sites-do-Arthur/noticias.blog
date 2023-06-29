@@ -1,4 +1,8 @@
 # Central de acesso Notícias.Blog
-[Acesse o Notícias.Blog][def]
+[Acesse o Notícias.Blog][web]
 
-[def]: paginas\index.html
+[Acesse a Calculadora Interativa Web][calc]
+
+[web]: paginas\index.html
+
+[calc]: paginas\paginas/calculadorainterativa.html
