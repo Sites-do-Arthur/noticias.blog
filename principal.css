@@ -3,6 +3,10 @@
     font-family: 'computador';
     src: url(computer-font.ttf);
 }
+@font-face {
+    font-family: 'subtitulo';
+    src: url(SummerPixelWide22Regular-4BoW4.ttf);
+}
 
 header#cabecalho h1 {
     font-family: 'computador';
@@ -54,20 +58,24 @@ nav#menu li:hover {
     text-decoration: underline;
 }
 
-span.direita {
-    display: block;
-    position: absolute;
-    float: right;
-    color: rgba(0, 0, 0, .3);
-    right: 500px;
-    top: 130px;
-}
-
 section#corpo {
     border-right: 1px solid #606060;
     width: 500px;
     float: left;
     padding-right: 15px;
+}
+
+section#corpo h2 {
+    display: block;
+    padding: 2px;
+    font-family: 'subtitulo';
+    background-color: #dddddddd;
+}
+
+.direita {
+    float: right;
+    font-size: 10pt;
+    color: rgba(0, 0, 0, .3);
 }
 
 aside#direita {
