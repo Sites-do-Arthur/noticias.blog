@@ -5,4 +5,4 @@
 
 [web]: paginas\index.html
 
-[calc]: paginas\paginas/calculadorainterativa.html
+[calc]: paginas\calculadorainterativa.html
