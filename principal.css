@@ -8,6 +8,10 @@
     src: url(SummerPixelWide22Regular-4BoW4.ttf);
 }
 
+div#interface {
+    background-color: aliceblue;
+}
+
 header#cabecalho h1 {
     font-family: 'computador';
 }
