@@ -5,8 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Central Login</title>
     <link rel="stylesheet" href="../principal.css"/>
+    <script language="javascript" src="../funcoes.js"></script>
 </head>
 <body>
-    <div id="interface"></div>
+    <div id="interface">
+        <header id="cabecalho">
+            <h1>Notícias.Blog</h1>
+            <h2><span style="text-decoration: underline;">Um blog com "Tudo"</span></h2>
+            <h3>Por Arthur Henrique Schlikmann</h3>
+            <h3><span class="direita">Atualizado 23/06/2023</span></h3>
+            <img id="icone" src="..\download.jpg"/>
+            <nav id="menu">
+            <ul>    
+            <a href="index.html"><li onmousemove="mudaFoto('../home.jpg')" onmouseout="mudaFoto('../download.jpg')">Home</li></a>
+            <a href="noticias.html"><li onmousemove="mudaFoto('../th.jpg')" onmouseout="mudaFoto('../download.jpg')">Notícias</li></a>
+            <a href="multimidia.html"><li onmousemove="mudaFoto('../multimidia.jpg')" onmouseout="mudaFoto('../download.jpg')">Multimídia</li></a>
+            <a href="outros.html"><li onmousemove="mudaFoto('../10.jpg')" onmouseout="mudaFoto('../download.jpg')">Outros</li></a>
+            </ul>    
+            </nav>
+            </header>
+
+    </div>
 </body>
 </html>
